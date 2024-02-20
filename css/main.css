@@ -1,0 +1,66 @@
+body{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border: 2px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-display: auto;
+    font-variant: small-caps;
+}
+.structural{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    color: rgb(128, 21, 21);
+    font-size: xx-large;
+}
+h2{
+    color:rgb(171, 68, 21);
+    font-size: larger;
+}
+main{
+    height: 70vh;
+}
+img{
+    border: black;
+    border-width: 90%;
+    height: 80%;
+}
+#leftImage{
+    background-color: rgb(224, 235, 22);
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+    float: left;
+}
+#rightImage{
+    background-color: rgb(226, 212, 47);
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+    float: left;
+}
+section{
+    clear: both;
+    font-weight: 300;
+    font-size: medium;
+    color: rgb(143, 94, 30);
+    padding: 5px;
+}
+a:hover{
+    color: green;
+}
+li{
+    color: rgb(12, 86, 12);
+    list-style:square;
+    line-height: 30px;
+}
+header, footer{
+    background-color: rgb(246, 189, 31);
+}
